@@ -1,0 +1,7 @@
+welcome: Welcome to Sea Green. I'm going to help you properly dispose of your products. Tell me what you want to dispose of, and I'll help you dispose of it properly
+
+round: Can you repeat the numbers {{ numbers|join(", ") }} backwards?
+
+win: Good job!
+
+lose: Sorry, that's the wrong answer.
