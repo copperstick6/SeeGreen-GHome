@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "intent": "YesIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "first",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "Guess1"
+    }
+  ]
+}

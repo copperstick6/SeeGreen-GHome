@@ -1,7 +1,21 @@
-welcome: Welcome to Sea Green. I'm going to help you properly dispose of your products. Tell me what you want to dispose of, and I'll help you dispose of it properly
+welcome: Welcome to Sea Green. I'm going to help you properly dispose of your products. Say yes let's go to start!
 
-round: Can you repeat the numbers {{ numbers|join(", ") }} backwards?
+round: Cool! So here's how it works! I will say 3 object categories, and you'll say 1 if your object is in the first category and 2 if your object is in the second and so on and so forth. Say 4 to repeat the choices and 5 to go to the next set of choices. Are you ready? Say I'm ready to continue.
 
-win: Good job!
+Guess1: Test!
 
-lose: Sorry, that's the wrong answer.
+compostResponse: You should definitely compost this object. Would you like to learn more about how to compost?
+
+compostYes: Compost is simply decomposed organic material. Simply construct a bin for your compost, and add in leaves or branches as well as your material, and don't forget to turn it every week or so! Would you like to learn about how composting helps the
+
+recyclingResponse: You should definitely recycle object. Would you like me to help you find a recycling center near you?
+
+recyclingYes: What is your ZipCode?
+
+recyclerNotFound: For your location in {{ zipCode }}, the closest recycling center could not be found. Perhaps try looking online?
+
+recyclerFound: For your location in {{ zipCode }}, the closest recycling center is in {{ address }}
+
+trashResponse: You may throw this object into the trash.
+
+doneResponse: Say Exit to quit!
